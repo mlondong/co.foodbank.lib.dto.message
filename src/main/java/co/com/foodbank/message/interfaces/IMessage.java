@@ -1,7 +1,7 @@
-package co.com.foodbank.message.dto;
+package co.com.foodbank.message.interfaces;
 
 import java.util.Date;
-import co.com.foodbank.user.model.IUser;
+import co.com.foodbank.user.request.RequestUserData;
 
 /**
  * @author mauricio.londono@gmail.com co.com.foodbank.message.dto 9/08/2021
@@ -10,9 +10,11 @@ public interface IMessage {
 
     String getId();
 
-    IUser getUser();
-
     Date getDateMessage();
 
+    String getSubject();
+
     String getDescription();
+
+    RequestUserData getUser();
 }
