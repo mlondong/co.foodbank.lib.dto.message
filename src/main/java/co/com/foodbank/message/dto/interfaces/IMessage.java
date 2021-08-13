@@ -1,4 +1,4 @@
-package co.com.foodbank.message.interfaces;
+package co.com.foodbank.message.dto.interfaces;
 
 import java.util.Date;
 import co.com.foodbank.user.request.RequestUserData;
