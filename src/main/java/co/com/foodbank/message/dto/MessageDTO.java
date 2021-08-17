@@ -6,7 +6,7 @@ import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 import com.fasterxml.jackson.annotation.JsonFormat;
-import co.com.foodbank.user.request.RequestUserData;
+import co.com.foodbank.user.dto.response.UserData;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
@@ -35,6 +35,6 @@ public class MessageDTO {
 
     @NotNull
     @Valid
-    private RequestUserData user;
+    private UserData user;
 
 }

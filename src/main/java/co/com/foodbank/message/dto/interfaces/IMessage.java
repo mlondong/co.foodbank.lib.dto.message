@@ -1,7 +1,7 @@
 package co.com.foodbank.message.dto.interfaces;
 
 import java.util.Date;
-import co.com.foodbank.user.request.RequestUserData;
+import co.com.foodbank.user.dto.request.RequestUserData;
 
 /**
  * @author mauricio.londono@gmail.com co.com.foodbank.message.dto 9/08/2021
