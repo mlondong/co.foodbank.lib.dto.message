@@ -1,7 +1,6 @@
 package co.com.foodbank.message.dto;
 
 import java.util.Date;
-import javax.validation.Valid;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
@@ -34,7 +33,6 @@ public class MessageDTO {
     private String description;
 
     @NotNull
-    @Valid
     private UserData user;
 
 }
